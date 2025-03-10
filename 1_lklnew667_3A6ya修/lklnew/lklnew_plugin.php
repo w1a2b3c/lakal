@@ -30,7 +30,7 @@ class lklnew_plugin
             ],
         ],
         'select' => null,
-        'note' => '<span style="color: red;font-size:2em;">更多资源：https://zibovip.top</span><br>宝塔定时任务监控<br>任务类型：Shell脚本<br>执行周期：N秒 3秒（这里根据实际情况调节）<br>执行用户：www<br>脚本内容：php ' . __DIR__ . '/monitor.php 通道ID',
+        'note' => '<span style="color: red;font-size:2em;">更多详细资源：https://zibovip.top</span><br>宝塔定时任务监控<br>任务类型：Shell脚本<br>执行周期：N秒 3秒（这里根据实际情况调节）<br>执行用户：www<br>脚本内容：php ' . __DIR__ . '/monitor.php 通道ID',
         'bindwxmp' => false,
         'bindwxa' => false,
     ];
