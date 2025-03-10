@@ -95,6 +95,5 @@ class lklnew_plugin
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         $response = curl_exec($ch);
         curl_close($ch);
-        return $response;
     }
 }
